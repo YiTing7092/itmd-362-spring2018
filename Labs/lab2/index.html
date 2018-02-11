@@ -7,7 +7,7 @@
   <link rel="stylesheet" media="screen" href="screen.css" />
 </head>
 <body>
-  <form action="#null" method="get">
+  <form action="#null" method="post">
     <ul>
       <li>
         <label for="get-name">Name: </label>
@@ -15,19 +15,19 @@
       </li>
       <li>
         <label for="get-birthday">date of birth: </label>
-        <input type="number" name="birthday" id="get-birthday" />
+        <input type="date" name="birthday" id="get-birthday" />
       </li>
       <li>
         <label for="get-phone">Cell phone number: </label>
-        <input type="number" name="cellphone" id="get-phone" />
+        <input type="text" name="cellphone" id="get-phone" />
       </li>
       <li>
         <label for="get-email">E-mail address: </label>
-        <input type="text" name="email" id="get-email" />
+        <input type="email" name="email" id="get-email" />
       </li>
       <li>
-        <input type="button" name="submit" value="Submit" />
-        <input type="button" name="reset" value="Reset" />
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
       </li>
     </ul>
   </form>
